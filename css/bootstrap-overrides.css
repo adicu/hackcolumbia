@@ -11,9 +11,14 @@
 
 .nav-logo {
 	vertical-align:middle;
-	background:url("../img/whitelogo.png") no-repeat;
-	width:200px;
-	height: 20px;
+}
+
+.logo {
+	height: 30px;
+}
+
+.navbar-inner {
+	background: rgb(0, 0, 0, 0.5) !important;
 }
 
 .register-nav {

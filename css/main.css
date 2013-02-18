@@ -1,0 +1,22 @@
+/* =====================================
+	Typefaces
+   =================================== */
+
+@font-face {
+	font-family: Fedra;
+	src: url('../fonts/FedraSansStd Book.1.otf');
+}
+
+@font-face {
+	font-family: Fedra Bold;
+	src: url('../fonts/FedraSansStd Bold.otf');
+}
+
+/* =====================================
+	Main styles
+   =================================== */
+
+.navbar {
+	font-family: Fedra;
+
+}
