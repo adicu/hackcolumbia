@@ -54,7 +54,7 @@
 }
 
 /* =============================
-	Global styles
+	Global styles and helpers
    ============================= */
 a {
 	text-decoration: none;
@@ -69,6 +69,12 @@ a:hover {
 	text-decoration: none;
 }
 
+
+.bluebox {
+	background-color: #a8dff4;
+	color: #fff;
+	padding: 10px 15px;
+}
 
 .nav {
 	font-family: Fedra;
@@ -95,6 +101,7 @@ a:hover {
 .nav-logo {
 	vertical-align:middle;
 	max-height: 20px;
+	margin-right: 50px;
 }
 
 .register-nav {
@@ -102,18 +109,9 @@ a:hover {
 	color: #FFFFFF;
 	background-color:#9BDDFF;
 	background-repeat:repeat no-repeat;
-	border-color:rgba(0, 0, 0, 0.0980392) rgba(0, 0, 0, 0.0980392) rgba(0, 0, 0, 0.247059);
 	font-family: Fedra;
 	font-weight:200;
 	font-size: 18px;
-	-webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0 inset, rgba(0, 0, 0, 0.0470588) 0 1px 2px;
-	border-bottom-left-radius:3px;
-	border-bottom-right-radius:3px;
-	border-style:solid;
-	border-top-left-radius:3px;
-	border-top-right-radius:3px;
-	border-width:1px;
-	box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0 inset, rgba(0, 0, 0, 0.0470588) 0 1px 2px;
 	line-height:20px;
 	text-align:center;
 	vertical-align:middle;
@@ -125,10 +123,11 @@ a:hover {
 	background: url("../img/bg1.jpg");
 	background-size:135%;
 	background-color:#000;
-  background-position:47%;
+	background-position:47%;
 	margin-top:50px;
 	border-bottom:1px solid #999;
 	text-shadow:#000000 1px 1px;
+	font-family: Fedra;
 }
 
 sup {
@@ -164,39 +163,63 @@ sup {
 	text-shadow:none;
 	text-transform:uppercase;
 	font-weight:bold;
-	padding:15px 30px;
+	letter-spacing: 0.1em;
+	padding:30px 60px;
 	font-size:25px;
 }
 
 .splash .actions .btn:hover,.splash .actions .btn:active,.splash .actions .btn.active,.splash .actions .btn.disabled,.splash .actions .btn[disabled] {
-	background-color:#9BDDFF;
+	background-color: #9BDDFF;
 }
 
 .splash .actions .btn:active,.splash .actions .btn.active {
-	background-color:#fa0f0c;
+	background-color: #00435d;
+	border: none;
 }
 
 .dates {
-	font-family:"Open Sans",Calibri,Candara,Arial,sans-serif;
-	font-size:26px;
-	text-transform:uppercase;
+	font-size:36px;
 	text-align:center;
 	margin-bottom:30px;
 	text-shadow: none;
+	font-weight: bold;
+	line-height: 40px;
+	margin: 100px 0;
+}
+
+.splash-logo {
+	margin: 50px 0 20px 0;
 }
 
 .splash .message {
-	font-family:"Open Sans",Calibri,Candara,Arial,sans-serif;
 	font-size:24px;
 	line-height:28px;
 	text-align:center;
 	margin-bottom:40px;
-	font-weight:normal;
+	font-weight:bold;
+	letter-spacing: 0.1em;
 	text-shadow: none;
+	color: #fff;
+}
+
+.hero-register {
+	box-shadow: 1px 0px 1px #00435d,
+				0px 1px 1px #00435d,
+				2px 1px 1px #00435d,
+				1px 2px 1px #00435d,
+				3px 2px 1px #00435d,
+				2px 3px 1px #00435d,
+				4px 3px 1px #00435d,
+				3px 4px 1px #00435d,
+				5px 4px 1px #00435d,
+				4px 5px 1px #00435d,
+				6px 5px 1px #00435d;
+	outline: none;
+	border: none;	
+
 }
 
 .section-title {
-	font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
 	font-size:36px;
 	line-height:40px;
 	margin-bottom:40px;
