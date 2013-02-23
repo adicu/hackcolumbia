@@ -300,6 +300,12 @@ sup {
 	font-size: 40px;
 }
 
+.logo {
+	max-width: 200px;
+	max-height: 100px;
+	margin: 10px;
+}
+
 figure {
 	display: block;
 	position: relative;
@@ -345,8 +351,10 @@ figure:hover:before {
 .cap-bot figcaption { left: 0; bottom: -30%;}
 .cap-bot:hover figcaption { bottom: 0; }
 
-.team {
-	padding-left: 90px;
+.team > span {
+	position: relative;
+	display: inline-block;
+	margin-left: 20%;
 }
 
 .footer,.sociallink {
@@ -358,9 +366,10 @@ figure:hover:before {
 	color: white;
 }
 
-.contactsection {
-	background-color: black;
-	color: white;
+.contactsection,
+.sponsorssection {
+	background-color: white;
+	color: black;
 }
 
 .row > .col {
