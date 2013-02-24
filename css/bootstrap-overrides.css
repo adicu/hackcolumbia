@@ -97,6 +97,9 @@ a:hover {
 	color: #9BDDFF;
 	background-color: transparent;
 }
+.navbar .nav>li>a {
+	padding: 15px 15px 15px 0;
+}
 
 .nav-logo {
 	vertical-align:middle;
