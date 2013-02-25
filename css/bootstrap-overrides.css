@@ -398,3 +398,7 @@ figure:hover:before {
 	line-height: 14px;
 	margin-bottom: 20px;
 }
+
+.navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+	width: 960px;
+}
