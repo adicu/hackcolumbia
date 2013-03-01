@@ -309,12 +309,17 @@ sup {
 	margin: 10px;
 }
 
+.hosts {
+	height: 60px;
+	width: auto;
+}
+
 figure {
 	display: block;
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 0 20px 20px 0;
+	margin: 0 10px 10px 0;
 }
 figcaption {
 	width: 143px;
