@@ -74,6 +74,7 @@ a:hover {
 	background-color: #a8dff4;
 	color: #fff;
 	padding: 10px 15px;
+	border-radius: 5px;
 }
 
 .nav {
@@ -190,8 +191,21 @@ sup {
 	margin: 100px 0;
 }
 
+#underway {
+	margin: auto;
+	text-align: center;
+	text-shadow: none;
+	margin-top: 50px;
+	width: 50%;
+	color: #000;
+	display: none;
+}
+
+#underway > a {
+	color: #fff;
+}
 .splash-logo {
-	margin: 50px 0 20px 0;
+	margin: 30px 0 20px 0;
 }
 
 .splash .message {
